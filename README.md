@@ -108,6 +108,7 @@ else
    print("body ", resp.body)
    local data = cjson.decode(resp.body) -- convert into a lua table
 end
+```
 
 ### Streamed request
 
